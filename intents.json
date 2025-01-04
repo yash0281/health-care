@@ -1,0 +1,298 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hey",
+        "hi",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going"
+      ],
+      "responses": [
+        "hello",
+        "hey!",
+        "what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you later",
+        "goodbye",
+        "have a good day",
+        "bye",
+        "cao",
+        "see ya"
+      ],
+      "responses": [
+        "have a nice day",
+        "goodbye"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old",
+        "how old are you?",
+        "what is your age",
+        "how old are you",
+        "age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation",
+        "hey!",
+        "my owners are averagely 20 years!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should i call you",
+        "what's your name?",
+        "who are you?",
+        "can you tell me your name"
+      ],
+      "responses": [
+        "you can call me Medbot!",
+        "i am Medbot!",
+        "i am Medbot, your medical assistant"
+      ]
+    },
+    {
+      "tag": "common cold symptoms",
+      "patterns": [
+        "Runny or stuffy nose",
+        "Sore throat",
+        "Cough",
+        "Congestion",
+        "Slight body aches or a mild headache",
+        "Sneezing",
+        "Low-grade fever",
+        "Generally feeling unwell (malaise)"
+      ],
+      "responses": [
+        "It seems that you are suffering from common cold"
+      ]
+    },
+    {
+      "tag": "fever symptoms",
+      "patterns": [
+        "Sweating",
+        "Chills and shivering",
+        "Headache",
+        "Muscle aches",
+        "Loss of appetite",
+        "Irritability",
+        "Dehydration",
+        "General weakness"
+      ],
+      "responses": [
+        "It seems that you are suffering from fever"
+      ]
+    },
+    {
+      "tag": "Diabetes symptoms",
+      "patterns": [
+        "increased hunger",
+        "increased thirst",
+        "weight loss",
+        "frequent urination",
+        "blurry vision",
+        "extreme fatigue"
+      ],
+      "responses": [
+        "It seems that you are suffering from Diabetes"
+      ]
+    },
+    {
+      "tag": "Depression symptoms",
+      "patterns": [
+        "Hopeless outlook",
+        "Lost interest",
+        "Increased fatigue",
+        "sleep problem",
+        "Anxiety",
+        "change in weight",
+        "Looking at death"
+      ],
+      "responses": [
+        "It seems that you are suffering from depression"
+      ]
+    },
+    {
+      "tag": "Asthma symptoms",
+      "patterns": [
+        "coughing",
+        "tightness in the chest",
+        "shortness of breath",
+        "difficulty talking",
+        "panic",
+        "fatigue"
+      ],
+      "responses": [
+        "It seems that you are suffering from Asthma"
+      ]
+    },
+    {
+      "tag": "common cold prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my common cold?",
+        "tell me some prevention method from common cold",
+        "What should I eat or drink if I am suffering from common cold?",
+        "How can I keep from getting a cold or the flu?"
+      ],
+      "responses": [
+        "Medicines you can consume: Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max. Preventative actions: Wash your hands, Avoid touching your face, Clean frequently used surfaces, Use hand sanitizers. Suggested foods: Garlic, Vitamin C–containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup."
+      ]
+    },
+    {
+      "tag": "fever prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my fever?",
+        "tell me some prevention method from fever",
+        "What should I eat or drink if I am suffering from fever?",
+        "How can I keep from getting a fever?"
+      ],
+      "responses": [
+        "Medicines you can consume: acetaminophen, ibuprofen, aspirin, Crocin Cold & Flu Max. Preventative actions: Wash your hands, Cover your mouth when you cough, Clean frequently used surfaces, Avoid sharing cups, glasses, and eating utensils with others. Suggested foods: Garlic, Vitamin C–containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup."
+      ]
+    },
+    {
+      "tag": "diabetes prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my diabetes?",
+        "tell me some prevention method from diabetes",
+        "What should I eat or drink if I am suffering from diabetes?",
+        "How can I keep from getting diabetes?"
+      ],
+      "responses": [
+        "Medicines you can consume: Insulin, Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor. Preventative actions: Cut sugar and refined carbs from your diet, Work out regularly, Drink water as your primary beverage, Lose weight if you’re overweight, Quit smoking, Follow a very-low-carb diet. Suggested foods: Leafy greens, Avocados, Eggs."
+      ]
+    },
+    {
+      "tag": "depression prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my depression?",
+        "tell me some prevention method from depression",
+        "What should I eat or drink if I am suffering from depression?",
+        "How can I keep from getting depression?"
+      ],
+      "responses": [
+        "Medicines you can consume: brexpiprazole, quetiapine, olanzapine. Preventative actions: Exercise regularly, Cut back on social media, Drink water as your primary beverage, Build strong relationships, Minimize daily choices, Follow a very-low-carb diet. Suggested foods: Vitamin D, Omega-3 fatty acids, Beans, and legumes."
+      ]
+    },
+    {
+      "tag": "asthma prevention",
+      "patterns": [
+        "What medicines can I buy to help me with my asthma?",
+        "tell me some prevention method from asthma",
+        "What should I eat or drink if I am suffering from asthma?",
+        "How can I keep from getting asthma?"
+      ],
+      "responses": [
+        "Medicines you can consume: Epinephrine, Anticholinergic, Proair HFA. Preventative actions: Identify asthma triggers, Stay away from allergens, Avoid smoke of any type. Suggested foods: Carrots, Juice, Eggs, Broccoli, Cantaloupe, Milk."
+      ]
+    },
+    {
+      "tag": "Consultation",
+      "patterns": [
+        "who should I contact for consultation?",
+        "is there any doctor available?",
+        "can you give me some suggestions for doctor consultations?",
+        "can you set up a meeting with a doctor for consultation?",
+        "is there any doctor available for consultation?"
+      ],
+      "responses": [
+        "You can contact various doctors for consultations: 1. [1mg Online Doctor Consultation](https://www.1mg.com/online-doctor-consultation), 2. [Tata Health Online Consultation](https://www.tatahealth.com/online-doctor-consultation/general-physician), 3. [DocOnline](https://www.doconline.com/), or you can visit your local or family doctor."
+      ]
+    },
+    {
+      "tag": "hypertension symptoms",
+      "patterns": [
+        "headaches",
+        "shortness of breath",
+        "dizziness",
+        "nosebleeds",
+        "chest pain",
+        "fatigue"
+      ],
+      "responses": [
+        "It seems that you are suffering from Hypertension (high blood pressure). It's best to consult a healthcare professional for proper diagnosis and treatment."
+      ]
+    },
+    {
+      "tag": "hypertension prevention",
+      "patterns": [
+        "What medicines can I buy to help me with hypertension?",
+        "tell me some prevention methods for hypertension",
+        "What should I eat or drink to prevent hypertension?",
+        "How can I keep from getting hypertension?"
+      ],
+      "responses": [
+        "Medicines you can consume: ACE inhibitors, Angiotensin II receptor blockers, Beta-blockers, Diuretics. Preventative actions: Reduce salt intake, Exercise regularly, Maintain a healthy weight, Avoid excessive alcohol consumption, Quit smoking, Manage stress. Suggested foods: Leafy greens, Bananas, Beets, Garlic."
+      ]
+    },
+    {
+      "tag": "arthritis symptoms",
+      "patterns": [
+        "joint pain",
+        "swelling in the joints",
+        "stiffness in the joints",
+        "reduced range of motion",
+        "warmth in the joints"
+      ],
+      "responses": [
+        "It seems that you might be suffering from arthritis. It's important to visit a healthcare provider for proper evaluation and treatment."
+      ]
+    },
+    {
+      "tag": "arthritis prevention",
+      "patterns": [
+        "What medicines can I buy to help with arthritis?",
+        "tell me some prevention methods for arthritis",
+        "What should I eat or drink to prevent arthritis?",
+        "How can I keep from getting arthritis?"
+      ],
+      "responses": [
+        "Medicines you can consume: NSAIDs (Non-Steroidal Anti-Inflammatory Drugs), Disease-modifying antirheumatic drugs (DMARDs), Corticosteroids. Preventative actions: Maintain a healthy weight, Exercise regularly, Avoid joint injury, Eat anti-inflammatory foods. Suggested foods: Omega-3 fatty acids, Turmeric, Ginger, Berries, Leafy greens."
+      ]
+    },
+    {
+      "tag": "cancer symptoms",
+      "patterns": [
+        "persistent cough",
+        "unexplained weight loss",
+        "fatigue",
+        "pain",
+        "lumps or swelling",
+        "skin changes",
+        "difficulty swallowing",
+        "persistent indigestion",
+        "blood in stool or urine",
+        "changes in bowel habits",
+        "frequent infections"
+      ],
+      "responses": [
+        "Cancer symptoms vary depending on the type and location, but these can be potential signs: persistent cough, unexplained weight loss, pain, and lumps. It's crucial to consult with a healthcare professional for proper diagnosis and further testing."
+      ]
+    },
+    {
+      "tag": "cancer prevention",
+      "patterns": [
+        "What medicines can I take to prevent cancer?",
+        "tell me some prevention methods for cancer",
+        "What should I eat or drink to prevent cancer?",
+        "How can I keep from getting cancer?"
+      ],
+      "responses": [
+        "Preventing cancer involves lifestyle changes such as avoiding tobacco, maintaining a healthy diet with lots of fruits and vegetables, exercising regularly, limiting alcohol intake, and getting regular screenings. Some medications may reduce risk, but you should consult with a healthcare provider for personalized advice."
+      ]
+    }
+  ]
+}
+
